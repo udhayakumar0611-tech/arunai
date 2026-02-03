@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Arunai Engineering College</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html"><span class="logo_colour"> Arunai Engineering college</span></a></h1>
+          <h2>(Autonomous)</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Academics.html">Academics</a></li>
+          <li class="selected"><a href="Admission.html">Admission</a></li>
+          <li><a href="Facilities.html">Facilities</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here -->
+            
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            
+            </ul>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+           
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+         <h1>Admission Form</h1>
+
+  <form action="#" method="post">
+
+    <div style="margin-bottom:10px;">
+      <label><b>Student Name</b></label><br>
+      <input type="text" name="name" required>
+    </div>
+
+    <div style="margin-bottom:10px;">
+      <label><b>Date of Birth</b></label><br>
+      <input type="date" name="dob" required>
+    </div>
+
+    <div style="margin-bottom:10px;">
+      <label><b>Gender</b></label><br>
+      <input type="radio" name="gender"> Male
+      <input type="radio" name="gender"> Female
+    </div>
+
+    <div style="margin-bottom:10px;">
+      <label><b>Email</b></label><br>
+      <input type="email" name="email" required>
+    </div>
+
+    <div style="margin-bottom:10px;">
+      <label><b>Mobile Number</b></label><br>
+      <input type="text" name="mobile" maxlength="10" required>
+    </div>
+
+    <div style="margin-bottom:10px;">
+      <label><b>Course</b></label><br>
+      <select name="course" required>
+        <option value="">Select Course</option>
+        <option>B.E &ndash; CSE</option>
+        <option>B.E &ndash; ECE</option>
+        <option>B.E &ndash; EEE</option>
+        <option>B.E &ndash; MECH</option>
+        <option>B.Tech &ndash; IT</option>
+      </select>
+    </div>
+
+    <div style="margin-bottom:10px;">
+      <label><b>Address</b></label><br>
+      <textarea name="address" rows="4"></textarea>
+    </div>
+
+    <div style="margin-top:15px;">
+      <input type="submit" value="Submit">
+      <input type="reset" value="Clear">
+    </div>
+
+  </form>
+</div>
+</body>
+</html>
